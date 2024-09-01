@@ -1,5 +1,5 @@
 module "aws_budget" {
-  source              = "git::https://github.com/Sanket-S-Thorat/AWS_DOP-02/tree/main/modules/aws_budget"
+  source              = "git::https://github.com/Sanket-S-Thorat/AWS_DOP-02.git//modules/aws_budget"
   name                = "initial-budget-prod"
   budget_type         = "COST"
   limit_amount        = "1"
