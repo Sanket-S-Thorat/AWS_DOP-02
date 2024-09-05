@@ -1,0 +1,10 @@
+Resources:
+  Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'lazii_mind111116'
+  Instance:
+    Type:
+    Properties:
+      InstanceType: 't2.micro'
+      ImageId: 'ami-0e53db6fd757e38c7'
